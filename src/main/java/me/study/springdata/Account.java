@@ -24,6 +24,8 @@ public class Account {
     @Transient
     private String no;
 
+    private Address address;
+
     public Long getId() {
         return id;
     }
